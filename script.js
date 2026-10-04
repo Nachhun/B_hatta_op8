@@ -51,8 +51,8 @@ function initScrollReveals() {
    2. REAL-TIME COUNTDOWN TIMER
    ========================================================================== */
 function initCountdown() {
-  // Target: Sunday, 22 November 2026, 5:30 PM (NZDT, UTC+13 - Christchurch, New Zealand)
-  const targetDate = new Date('2026-11-22T17:30:00+13:00').getTime();
+  // Target: Sunday, 22 November 2026, 11:00 AM (NZDT, UTC+13 - Christchurch, New Zealand)
+  const targetDate = new Date('2026-11-22T11:00:00+13:00').getTime();
 
   const daysEl = document.getElementById('cd-days');
   const hoursEl = document.getElementById('cd-hours');
